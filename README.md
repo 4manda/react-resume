@@ -1,3 +1,3 @@
 GitHub Pages
 
-https://4manda.github.io
+https://4manda.github.io/react-resume
