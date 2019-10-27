@@ -1,0 +1,43 @@
+#resume.ui.grid {
+  margin: 0;
+}
+.label__interests.ui.label {
+  color: #00af87;
+}
+.label__skills.ui.label {
+  background-color: #00af87;
+  color: #FFFFFF;
+}
+@media screen and (max-width: 767px) {
+  .ui.unstackable.items>.item>.image {
+    width: auto !important;
+  }
+  #resume__persona_mobile {
+    background-color: #e4e4e4;
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+  }
+  #resume__persona_mobile:not(.scrolled-up) {
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+  }
+  #resume__contacts_mobile {
+    margin-top: 50px;
+  }
+  .ui.segment.centered {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+  } 
+}
+@media screen and (max-width: 500px) {
+  .ui.unstackable.items>.item {
+    display: block;
+  }
+  .ui.unstackable.items>.item>.image {
+    float: right;
+  }
+  .ui.unstackable.items>.item>.content {
+    padding-left: 0;
+  }
+}

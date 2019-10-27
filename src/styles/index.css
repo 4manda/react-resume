@@ -1,0 +1,152 @@
+/*
+w h i t e:
+======================================================================
+Cloud          254      #e4e4e4      http://www.colorhexa.com/e4e4e4
+
+b l a c k:
+======================================================================
+Pitch          232      #080808      http://www.colorhexa.com/080808
+Midnight       233      #121212      http://www.colorhexa.com/121212
+Twilight       234      #1c1c1c      http://www.colorhexa.com/1c1c1c
+
+g r a y:
+======================================================================
+Stars          188      #dfdfdf      http://www.colorhexa.com/dfdfdf
+Sunset         235      #262626      http://www.colorhexa.com/262626
+Day            236      #303030      http://www.colorhexa.com/303030
+Shade          237      #3a3a3a      http://www.colorhexa.com/3a3a3a
+Pebble         239      #4e4e4e      http://www.colorhexa.com/4e4e4e
+Fog            241      #626262      http://www.colorhexa.com/626262
+Ash            243      #767676      http://www.colorhexa.com/767676
+Dust           244      #808080      http://www.colorhexa.com/808080
+Stone          245      #8a8a8a      http://www.colorhexa.com/8a8a8a
+
+r e d:
+======================================================================
+Firecracker    131      #af5f5f      http://www.colorhexa.com/af5f5f
+Scarlet        160      #d70000      http://www.colorhexa.com/d70000
+Rose           167      #d75f5f      http://www.colorhexa.com/d75f5f
+
+g r e e n:
+======================================================================
+Dark Green              #00665c
+Tourqouise dark         #2F8585
+light                   #A4DECB
+like foxton?            #48A485
+light light             #bbeedd
+slightly darker than jade - #5ec8a5
+
+Foxton         36       #00af87      http://www.colorhexa.com/00af87
+Fern           65       #5f875f      http://www.colorhexa.com/5f875f
+Jade           79       #5fd7af      http://www.colorhexa.com/5fd7af
+Sage           107      #87af5f      http://www.colorhexa.com/87af5f
+Marsh          108      #87af87      http://www.colorhexa.com/87af87
+Pistachio      119      #87ff5f      http://www.colorhexa.com/87ff5f
+Emerald        151      #afd7af      http://www.colorhexa.com/afd7af
+Chartreuse     190      #dfff00      http://www.colorhexa.com/dfff00
+Lime           191      #dfff5f      http://www.colorhexa.com/dfff5f
+Parakeet       192      #dfff87      http://www.colorhexa.com/dfff87
+Ocean          194      #dfffdf      http://www.colorhexa.com/dfffdf
+
+y e l l o w:
+======================================================================
+Dune           187      #dfdfaf      http://www.colorhexa.com/dfdfaf
+Firefly        230      #ffffdf      http://www.colorhexa.com/ffffdf
+
+c y a n:
+======================================================================
+Oasis          109      #87afaf      http://www.colorhexa.com/87afaf
+Robin          111      #87afff      http://www.colorhexa.com/87afff
+
+b l u e:
+======================================================================
+
+p u r p l e:
+======================================================================
+Wisteria       147     #afafff       http://www.colorhexa.com/afafff
+
+o r a n g e:
+======================================================================
+Pomegranate    209     #ff875f       http://www.colorhexa.com/ff875f
+Sorbet         216     #ffaf87       http://www.colorhexa.com/ffaf87
+
+*/
+
+/******** Main body of the website ************/
+* { box-sizing: border-box; }
+
+body {
+  font-family: sans-serif;
+  background: #e4e4e4;
+  color: #626262;
+  text-decoration: none;
+}
+
+body button {
+  color: #626262;
+}
+  
+.main {
+  margin-top: 30px;             /* Add top marging to avoid conflict with content overlay */
+}
+
+.docs-header {
+  text-align: center;
+}
+
+h1 { color: #00af87; }
+h3 { color: #5fd7af; }
+
+/* Clear floats after the header - TODO: figure out what this means! */
+.docs-header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Styling links in main body of site */
+.main a:link {
+  color: #00af87;
+  text-decoration: none;
+}
+
+.main a:visited {
+  color: #87af87;
+  text-decoration: none;
+}
+
+.main a:hover {
+  text-decoration: underline;
+}
+
+/* Style the input box */
+.main input {
+  border: thin solid grey;
+  max-width: 300px;
+  padding: 5px;
+  float: center;
+  margin: 15px 0;
+  font-size: 15px;
+  color: #626262;
+}
+
+.main .addBtn {
+  padding: 5px;
+  margin: 15px 5px;
+  max-width: 200px;
+  background: #d9d9d9;
+  color: #626262;
+  border: thin solid grey;
+  float: center;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.main .addBtn:hover { background-color: #bbb; }
+
+.text__muted {
+  font-weight: 300;
+  font-size: small;
+}
