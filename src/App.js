@@ -2,7 +2,7 @@ import React from 'react';
 import 'semantic-ui-css/semantic.min.css';
 import './styles/index.css';
 
-import Resume from './components/resume/Resume';
+import Resume from './components/Resume';
 
 const App = props => {
   return (

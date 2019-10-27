@@ -1,12 +1,6 @@
 import React from 'react';
 import {
-  Grid,
-  Ref,
-  Sticky,
-  Segment,
-  Icon,
-  Divider,
-  Item,
+  Grid, Ref, Sticky, Segment, Icon, Divider, Item,
 } from 'semantic-ui-react';
 import Profile from './Profile';
 import About from './About';
@@ -15,7 +9,7 @@ import Skills from './Skills';
 import Education from './Education';
 import Interests from './Interests';
 import resume from './resume.json';
-import '../../styles/resume.css';
+import '../styles/resume.css';
 
 const structure = [{
   name: 'basics',
@@ -88,9 +82,5 @@ class Resume extends React.Component {
     );
   }
 } 
-             //  <Work work={ resume.work } />
-             //  <Skills skills={ resume.skills } />
-             //  <Education education={ resume.education } />
-             //  <Interests interests={ resume.interests } />
 
 export default Resume;

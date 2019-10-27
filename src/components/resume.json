@@ -31,10 +31,12 @@
       "startDate": "2017-07-01",
       "summary": "Built a community focused application to facilitate task management for groups of people.",
       "highlights": [
-        "Created and maintained all aspects of the React/Redux front-end system.",
+        "Created and maintained all aspects of the React/Redux front-end system from the ground up.",
         "Maintained a high level of automated code coverage using Mocha and NightwatchJS.",
-        "Created plugin functionality via dependency injection and maintained the feature segmented module system.",
-        "Utilized Phabricator to create, sharpen, and maintain a highly organized Agile development and code review process."
+				"Designed a plugin system using dependency injection to dynamically load modules into the main application as required by the user.",
+        "Utilized Phabricator to create, sharpen, and maintain a highly organized Agile development and code review process.",
+				"Leveraged Yeoman to quickly create new modules for the plugin system.",
+				"Contributed small changes within PostgreSQL to fix bugs and support frontend requirements."
       ]
     },
     {
@@ -45,7 +47,9 @@
       "endDate": "2018-09-08",
       "summary": "Designed and created a custom built wedding website to provide information to and collect rsvps from guests, including an administrator login UI for tracking rsvps.",
       "highlights": [
-        "Integrated React/Redux frontend with PostgreSQL and PostgREST backend, using a custom built middleware for easy api handling."
+				"Built and deployed production React web application in under a month to  120 users.",
+				"Integrated frontend with PostgreSQL and PostgREST backend, using a custom built middleware for easy API handling.",
+				"Designed and implemented a parallax, single page application with cross-browser and device compatibility."
       ]
     },
     {
@@ -120,10 +124,11 @@
       "name": "Frontend",
       "level": "Proficient",
       "keywords": [
+        "ES6",
         "HTML / JSX",
         "CSS / SASS / BEM / Semantic-UI",
-        "JavaScript",
-        "React / Redux",
+        "React",
+        "Redux",
         "Lodash",
         "Webpack",
         "Mocha",
@@ -206,7 +211,8 @@
         "Cycling",
         "Mountain biking",
         "Hiking/Backpacking",
-        "Soccer"
+        "Soccer",
+        "Golf"
       ]
     },
     {

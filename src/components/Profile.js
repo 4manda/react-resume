@@ -1,12 +1,6 @@
 import React from 'react';
 import {
-  Grid,
-  Header,
-  Image,
-  Icon,
-  Segment,
-  Divider,
-  List,
+  Grid, Header, Image, Icon, Segment, Divider, List,
 } from 'semantic-ui-react';
 
 const config = [{
